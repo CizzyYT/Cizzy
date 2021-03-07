@@ -1,5 +1,5 @@
 -- Cizzy Hub
--- Version: 1.0
+-- Version: 2.0
 
 -- Instances:
 
@@ -21,6 +21,8 @@ local phantom = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local vehicle = Instance.new("TextButton")
 local project = Instance.new("TextButton")
+local fighting = Instance.new("TextButton")
+local battle = Instance.new("TextButton")
 
 --Properties:
 
@@ -49,7 +51,7 @@ Arsenal.Name = "Arsenal"
 Arsenal.Parent = main
 Arsenal.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 Arsenal.BorderSizePixel = 0
-Arsenal.Position = UDim2.new(0.340769559, 0, 0.157384992, 0)
+Arsenal.Position = UDim2.new(0.339324474, 0, 0.138014525, 0)
 Arsenal.Size = UDim2.new(0, 220, 0, 50)
 Arsenal.Font = Enum.Font.SourceSans
 Arsenal.Text = "Arsenal"
@@ -74,7 +76,7 @@ Jailbreak.Name = "Jailbreak"
 Jailbreak.Parent = main
 Jailbreak.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 Jailbreak.BorderSizePixel = 0
-Jailbreak.Position = UDim2.new(0.00918482989, 0, 0.157384992, 0)
+Jailbreak.Position = UDim2.new(0.00773974322, 0, 0.138014525, 0)
 Jailbreak.Size = UDim2.new(0, 220, 0, 50)
 Jailbreak.Font = Enum.Font.SourceSans
 Jailbreak.Text = "Jailbreak"
@@ -88,7 +90,7 @@ roghoul.Name = "roghoul"
 roghoul.Parent = main
 roghoul.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 roghoul.BorderSizePixel = 0
-roghoul.Position = UDim2.new(0.672170162, 0, 0.157384992, 0)
+roghoul.Position = UDim2.new(0.670725107, 0, 0.138014525, 0)
 roghoul.Size = UDim2.new(0, 220, 0, 50)
 roghoul.Font = Enum.Font.SourceSans
 roghoul.Text = "Ro-Ghoul"
@@ -102,7 +104,7 @@ natural.Name = "natural"
 natural.Parent = main
 natural.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 natural.BorderSizePixel = 0
-natural.Position = UDim2.new(0.00918482989, 0, 0.297820807, 0)
+natural.Position = UDim2.new(0.00773974322, 0, 0.27845034, 0)
 natural.Size = UDim2.new(0, 220, 0, 50)
 natural.Font = Enum.Font.SourceSans
 natural.Text = "Natural Disasters"
@@ -112,12 +114,11 @@ natural.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Mstir16/special-stuff/main/special%20code%209'))()
 end)
 
-
 islands.Name = "islands"
 islands.Parent = main
 islands.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 islands.BorderSizePixel = 0
-islands.Position = UDim2.new(0.340769559, 0, 0.297820807, 0)
+islands.Position = UDim2.new(0.339324474, 0, 0.27845034, 0)
 islands.Size = UDim2.new(0, 220, 0, 50)
 islands.Font = Enum.Font.SourceSans
 islands.Text = "Islands"
@@ -131,7 +132,7 @@ blox.Name = "blox"
 blox.Parent = main
 blox.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 blox.BorderSizePixel = 0
-blox.Position = UDim2.new(0.672170162, 0, 0.297820807, 0)
+blox.Position = UDim2.new(0.670725107, 0, 0.27845034, 0)
 blox.Size = UDim2.new(0, 220, 0, 50)
 blox.Font = Enum.Font.SourceSans
 blox.Text = "Blox Fruits"
@@ -148,7 +149,7 @@ counter.Name = "counter"
 counter.Parent = main
 counter.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 counter.BorderSizePixel = 0
-counter.Position = UDim2.new(0.340769559, 0, 0.438256651, 0)
+counter.Position = UDim2.new(0.339324474, 0, 0.418886185, 0)
 counter.Size = UDim2.new(0, 220, 0, 50)
 counter.Font = Enum.Font.SourceSans
 counter.Text = "Counter Blox"
@@ -177,12 +178,11 @@ counter.MouseButton1Down:connect(function()
 	end
 end)
 
-
 bee.Name = "bee"
 bee.Parent = main
 bee.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 bee.BorderSizePixel = 0
-bee.Position = UDim2.new(0.00918482989, 0, 0.438256651, 0)
+bee.Position = UDim2.new(0.00773974322, 0, 0.418886185, 0)
 bee.Size = UDim2.new(0, 220, 0, 50)
 bee.Font = Enum.Font.SourceSans
 bee.Text = "Bee Swarm"
@@ -196,7 +196,7 @@ shindo.Name = "shindo"
 shindo.Parent = main
 shindo.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 shindo.BorderSizePixel = 0
-shindo.Position = UDim2.new(0.672170162, 0, 0.438256651, 0)
+shindo.Position = UDim2.new(0.670725107, 0, 0.418886185, 0)
 shindo.Size = UDim2.new(0, 220, 0, 50)
 shindo.Font = Enum.Font.SourceSans
 shindo.Text = "Shindo Life"
@@ -219,7 +219,7 @@ phantom.Name = "phantom"
 phantom.Parent = main
 phantom.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 phantom.BorderSizePixel = 0
-phantom.Position = UDim2.new(0.00918482989, 0, 0.578692496, 0)
+phantom.Position = UDim2.new(0.00773974322, 0, 0.559322059, 0)
 phantom.Size = UDim2.new(0, 220, 0, 50)
 phantom.Font = Enum.Font.SourceSans
 phantom.Text = "Phantom Forces"
@@ -244,7 +244,7 @@ vehicle.Name = "vehicle"
 vehicle.Parent = main
 vehicle.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 vehicle.BorderSizePixel = 0
-vehicle.Position = UDim2.new(0.340109706, 0, 0.578692496, 0)
+vehicle.Position = UDim2.new(0.338664621, 0, 0.559322059, 0)
 vehicle.Size = UDim2.new(0, 220, 0, 50)
 vehicle.Font = Enum.Font.SourceSans
 vehicle.Text = "Vehicle Simulator"
@@ -258,7 +258,7 @@ project.Name = "project"
 project.Parent = main
 project.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 project.BorderSizePixel = 0
-project.Position = UDim2.new(0.671492517, 0, 0.577932239, 0)
+project.Position = UDim2.new(0.670047462, 0, 0.558561802, 0)
 project.Size = UDim2.new(0, 220, 0, 50)
 project.Font = Enum.Font.SourceSans
 project.Text = "Project Lazarus"
@@ -292,13 +292,41 @@ project.MouseButton1Down:connect(function()
 	end
 end)
 
+fighting.Name = "fighting"
+fighting.Parent = main
+fighting.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+fighting.BorderSizePixel = 0
+fighting.Position = UDim2.new(0.00773974322, 0, 0.697336614, 0)
+fighting.Size = UDim2.new(0, 220, 0, 50)
+fighting.Font = Enum.Font.SourceSans
+fighting.Text = "Anime Fighting Simulator"
+fighting.TextColor3 = Color3.fromRGB(255, 255, 255)
+fighting.TextSize = 24.000
+fighting.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://maxv.ml/uploads/afs.lua")))()
+end)
+
+battle.Name = "battle"
+battle.Parent = main
+battle.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+battle.BorderSizePixel = 0
+battle.Position = UDim2.new(0.340109706, 0, 0.697336614, 0)
+battle.Size = UDim2.new(0, 220, 0, 50)
+battle.Font = Enum.Font.SourceSans
+battle.Text = "Anime Battle Arena"
+battle.TextColor3 = Color3.fromRGB(255, 255, 255)
+battle.TextSize = 30.000
+battle.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/travislmao/pub-scripts/main/abagui", true))()
+end)
+
 -- Scripts:
 
-local function FMPNF_fake_script() -- close.LocalScript 
+local function XBWIA_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.parent.MouseButton1Down:Connect(function()
 		script.parent.parent.Visible = false
 	end)
 end
-coroutine.wrap(FMPNF_fake_script)()
+coroutine.wrap(XBWIA_fake_script)()
